@@ -59,7 +59,6 @@ li > img {
 .top-nav {
 	background-color: white;
 	border: 1px solid Lightgray;
-	position: fixed;
 	z-index: 9999;
 	width: 100%;
 }
