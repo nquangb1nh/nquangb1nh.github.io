@@ -1,0 +1,184 @@
+html {
+	-webkit-font-smoothing: antialiased;
+	box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+  }
+
+body {
+	background-color: white;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #838994;
+	letter-spacing: 0.03em;
+}
+
+
+/*
+.nav-bar {
+	background-color: white;
+	height: 100%;
+}
+
+.nav-bar > .content {
+	margin: 0 auto;
+}
+
+a:link {
+	text-decoration: none;
+	color: Gray;
+}
+
+a:visited {
+	color: Gray;
+}
+
+li {
+	display: inline;
+	list-style: none;
+	padding-right: 40px;
+	margin-top: auto;
+	margin-bottom: auto;
+	line-height: 30px;
+}
+
+ul {
+	text-align: right;
+	vertical-align: middle;
+}
+
+li > img {
+	float: left;
+	width: 30px;
+}
+*/
+
+.top-nav {
+	background-color: white;
+	border: 1px solid Lightgray;
+	position: fixed;
+	z-index: 9999;
+	width: 100%;
+}
+
+.top-nav > .content {
+	width: 970px;
+	margin: 0 auto;
+	height: 70px;
+	padding: 0 15px;
+}
+
+.content > img {
+	height: 50px;
+	margin-top: 9px;
+}
+
+.links {
+	float: right;
+	margin-top: 23px;
+	text-decoration: none;
+}
+
+.links > li {
+	display: inline-block;
+	margin-left: 20px;
+}
+
+.top-nav .links > .active a {
+	color: #9CBF50;
+    font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+	color: gray;
+	transition: color 0.5s ease;
+}
+
+a:hover {
+	color: #F15B2A;
+}
+
+.front-cover {
+	text-align: center;
+	background: url('../images/background.jpg') orange;
+	background-size: cover;
+	height: 700px;
+	color: white;
+}
+
+.introduction-small {
+	margin-bottom: 50px;
+}
+
+button {
+	text-shadow:none;
+	border-style: none;
+	border-radius: 4px;
+	padding: 1rem 1.5rem;
+	width: 200px;
+	background-color: #F15B2A;
+	color: white;
+	transition: color 1s ease;
+}
+
+button:hover {
+	background-color: white;
+	color: #F15B2A;
+}
+
+.front-cover > .content {
+	width: 970px;
+	margin: auto;
+	padding: 200px;
+}
+
+.cases {
+	text-align: center;
+	margin-top: 100px;
+}
+
+.cases h2 {
+	font-size: 2em;
+	color: black;
+
+}
+
+.cases .devices {
+	float: left;
+	width: 33.3333333%;
+	display: inline-block;
+	box-sizing: border-box;
+	height: 300px;
+}
+
+.cases .devices img {
+	width: 8em;
+}
+
+.cases .devices p {
+	font-size: 1.5em;
+	color: black;
+}
+.footer {
+	border-top: 1px solid Lightgray;
+	height: 200px;
+	width: 700px;
+	margin-top: 330px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.footer ul {
+	text-align: center;
+	padding: 0;
+}
+
+.footer > ul > li {
+	display: inline-block;
+	list-style-type: none;
+}
