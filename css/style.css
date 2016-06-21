@@ -15,6 +15,7 @@ body {
 	letter-spacing: 0.03em;
 }
 
+p { line-height: 150%; }
 
 /*
 .nav-bar {
@@ -98,13 +99,14 @@ a {
 }
 
 a:hover {
-	color: #F15B2A;
+	color: #9CBF50;
 }
 
 .front-cover {
 	text-align: center;
 	background: url('../images/background.jpg') orange;
-	background-size: cover;
+	background-size: 100%;
+	background-repeat: no-repeat;
 	height: 700px;
 	color: white;
 }
@@ -134,6 +136,8 @@ button:hover {
 	margin: auto;
 	padding: 200px;
 }
+
+.bio { margin: 0 100px; }
 
 .cases {
 	text-align: center;
