@@ -137,17 +137,17 @@ button:hover {
 	padding: 200px;
 }
 
-.bio { margin: 0 100px; }
+.bio { margin: 0 50px; }
 
 .cases {
 	text-align: center;
-	margin-top: 100px;
+	margin: 100px;
 }
 
 .cases h2 {
 	font-size: 2em;
 	color: black;
-
+	margin: 100px 0 50px 0;
 }
 
 .cases .devices {
@@ -159,7 +159,7 @@ button:hover {
 }
 
 .cases .devices img {
-	width: 8em;
+	width: 15em;
 }
 
 .cases .devices p {
