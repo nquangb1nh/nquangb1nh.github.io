@@ -149,15 +149,13 @@ button:hover {
 }
 
 .cases .devices {
-	float: left;
-	width: 33.3333333%;
+	width: 25em;
 	display: inline-block;
 	box-sizing: border-box;
-	height: 300px;
 }
 
 .cases .devices img {
-	width: 15em;
+	width: 25em;
 }
 
 .cases .devices p {
@@ -168,7 +166,6 @@ button:hover {
 	border-top: 1px solid Lightgray;
 	height: 200px;
 	width: 700px;
-	margin-top: 330px;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
