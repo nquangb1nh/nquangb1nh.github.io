@@ -105,7 +105,7 @@ a:hover {
 .front-cover {
 	text-align: center;
 	background: url('../images/background.jpg') orange;
-	background-size: 100%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	height: 700px;
 	color: white;
