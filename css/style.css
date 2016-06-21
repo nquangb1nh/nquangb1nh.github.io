@@ -66,8 +66,6 @@ li > img {
 .top-nav > .content {
 	width: 970px;
 	margin: 0 auto;
-	height: 70px;
-	padding: 0 15px;
 }
 
 .content > img {
@@ -76,7 +74,7 @@ li > img {
 }
 
 .links {
-	float: right;
+	float: left;
 	margin-top: 23px;
 	text-decoration: none;
 }
@@ -87,18 +85,18 @@ li > img {
 }
 
 .top-nav .links > .active a {
-	color: #9CBF50;
-    font-weight: 500;
+	color: #FFFFFF;
+    font-weight: 700;
 }
 
 a {
 	text-decoration: none;
-	color: gray;
-	transition: color 0.5s ease;
+	color: #FFFFFF;
+	transition: font-weight 0.5s ease;
 }
 
 a:hover {
-	color: #9CBF50;
+	font-weight: 700;
 }
 
 .front-cover {
@@ -106,6 +104,7 @@ a:hover {
 	background: url('../images/background.jpg') orange;
 	background-size: cover;
 	background-repeat: no-repeat;
+	background-position: center center;
 	height: 700px;
 	color: white;
 }
