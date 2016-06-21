@@ -149,13 +149,13 @@ button:hover {
 }
 
 .cases .devices {
-	width: 25em;
+	width: 30%;
 	display: inline-block;
 	box-sizing: border-box;
 }
 
 .cases .devices img {
-	width: 25em;
+	width: 300px;
 }
 
 .cases .devices p {
